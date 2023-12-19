@@ -1,0 +1,137 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة الكتب</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0e0d0d;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #050505;
+            color: #f9a908;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #f9a908;
+        }
+
+        nav input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        nav button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #f4ecec;
+            color: #060606;
+            border: none;
+            cursor: pointer;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        section {
+            width: 70%;
+            background-color: #292828;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(243, 4, 4, 0.1);
+        }
+
+        section h2 {
+            color: #f7f1f1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: #f8f7f2;
+        }
+
+        aside {
+            width: 25%;
+            background-color: #070707;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(243, 215, 2, 0.789);
+        }
+
+        aside h2 {
+            color: #f4efef;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f9a908;
+            color: #090909;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>مكتبة الكتب</h1>
+    </header>
+
+    <nav>
+        <input type="text" placeholder="ابحث عن كتاب">
+        <button>بحث</button>
+    </nav>
+
+    <main>
+        <section>
+            <h2>الكتب</h2>
+            <ul>
+                <li>1- الليالي البيضاء </li>
+                <li>2- الاجنحه المتكسرة </li>
+                <li>3- آنا كارانينا </li>
+                <!-- يمكنك إضافة المزيد من الكتب هنا -->
+            </ul>
+        </section>
+
+        <aside>
+            <h2>قوائم</h2>
+            <ul>
+                <li>أفضل الكتب</li>
+                <li>كتب جديدة</li>
+                <li>الكتب القديمة</li>
+               <li>الكتب الرومانسية </li>
+                 <li>التصنيفات</li>
+                <!-- يمكنك إضافة المزيد من القوائم هنا -->
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© SAFAR ATTALLAH جميع الحقوق محفوظة  لدى 
+        </p>
+    </footer>
+
+</body>
+
+</html>
